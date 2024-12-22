@@ -1,0 +1,65 @@
+/* Background colors for different moods */
+.awful:not(.react-calendar-tile--active) {
+    background-color: #f44336; /* Red */
+}
+
+.bad:not(.react-calendar-tile--active) {
+    background-color: #e57373; /* Orange */
+}
+
+.meh:not(.react-calendar-tile--active) {
+    background-color: #f57c00; /* Yellow */
+}
+
+.good:not(.react-calendar-tile--active) {
+    background-color: #81c784; /* Bright Green */
+}
+
+.excellent:not(.react-calendar-tile--active) {
+    background-color: #388e3c; /* Green */
+}
+
+.awful.react-calendar-tile--active {
+    background-color: #FF9999; /* Light Red for active checked tile */
+}
+
+.bad.react-calendar-tile--active {
+    background-color: #FFD699; /* Light Orange for active checked tile */
+}
+
+.meh.react-calendar-tile--active {
+    background-color: #FFFF99; /* Light Yellow for active checked tile */
+}
+
+.good.react-calendar-tile--active {
+    background-color: #99FF99; /* Light Green for active checked tile */
+}
+
+.excellent.react-calendar-tile--active {
+    background-color: #008040; /* Darker Green for active excellent tile */
+}
+
+/* Styling for the calendar */
+.react-calendar {
+    max-width: 600px; /* Adjust the maximum width of the calendar */
+    margin: 0 auto; /* Center the calendar horizontally */
+    margin-top: 16px;
+    border: none;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Emoji tile styling */
+.emoji-tile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 1.5em; /* Adjust size as needed */
+    line-height: 1.5em; /* Adjust line height to center the emoji */
+}
+
+/* Hide date number when an emoji is present */
+.react-calendar__month-view__days__day--emoji .react-calendar__tile {
+    color: transparent; /* Hide the date number */
+}
