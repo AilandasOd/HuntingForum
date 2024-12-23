@@ -7,8 +7,7 @@
 ## 1. Sistemos paskirtis
 
    
-„TravelHub“ yra keliautojų bendruomenės forumas, skirtas dalintis kelionių patirtimi ir padėti kitiems planuoti keliones. Sistema leidžia naudotojams užduoti klausimus apie kelionės kryptis, rašyti patarimus apie konkrečias šalis, miestus ar lankytinas vietas bei dalintis atsiliepimais apie kelionės patarimus. Pagrindinis tikslas – padėti keliautojams lengviau rasti naudingą ir personalizuotą informaciją, pagrįstą kitų vartotojų patirtimi.
-
+„HuntingForum“ yra medžiotojų bendruomenės forumas.
 ## 2. Funkciniai reikalavimai
 
    
